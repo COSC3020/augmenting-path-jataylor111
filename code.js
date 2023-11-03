@@ -1,5 +1,5 @@
 function augmentingPath(graph, start, end) {
-    ar queue = [start];
+    var queue = [start];
     var paths = {start: null};
     var visited = new Set();
 
