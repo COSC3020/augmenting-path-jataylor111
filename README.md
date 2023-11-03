@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12704175&assignment_repo_type=AssignmentRepo)
 # Augmenting Paths
 
 When we talked about the Ford-Fulkerson algorithm to find the maximum flow
@@ -31,3 +32,11 @@ accordingly.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+## My Response
+
+The worst case complexity should be $\theta(V + E)$ because in the worst case scenario it needs to check every single node and every single edge to find the augmenting path, which would be constant because of the for loop, and make it $\theta(V + E)$
+
+
+
+
