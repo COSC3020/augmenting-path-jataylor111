@@ -32,3 +32,11 @@ accordingly.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+## My Response
+
+The worst case complexity should be $\theta(V + E)$ because in the worst case scenario it needs to check every single node and every single edge to find the augmenting path, which would be constant because of the for loop, and make it $\theta(V + E)$
+
+
+
+
